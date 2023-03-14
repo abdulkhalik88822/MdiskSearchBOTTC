@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "21872317"))
-    API_HASH = os.getenv("API_HASH", "b226752dd7d9958a2878118195fffe8b")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6088261601:AAHDYDGB7Cc5Gr6vXZ7VJwvjBKCqzUW_Gw4")
+    API_ID = int(os.getenv("API_ID", "21185457"))
+    API_HASH = os.getenv("API_HASH", "9902439c0d51324bd22dccc01227085d")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6265513460:AAEVABfwA8nb-OamLRm_aTEzP9kUlsnvzos")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazydeveloperr")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMMBu2U94jCQheJ7UqFKPD3sbO_t7q_pQAKzVa_jkNdI1A2iN6tb6BZ8K_ZWd8DRg2DE7gINTuj4UD7IcYqOiKwKVO2xfLk_TfeG1BoA8qipdwEZB6KKsMSiTPfFkPFCub-WC5v47ECdt3r0YZjeeHuobJ2z7TBs3e81VVGKxVspoEMlQFd3tXFbcNldHupvqZHROfFmmVvzn_drKBOtFFXg-FVKpmt76bEk1pferNqSvj6HTe2wmVNcFybCp_8-JdLDy-FITu5CkK1Vx4w3ZWXGkmX-BMzwZQuUjtMe5T1038eq581bD5bWE0HZ85SohG185uPw80WB0AOrFaSPAKaRwLA=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQCmHf2A4fWTVi4lsWjjdIpa2k879G0hLoFR0z3kHt14VlljUcyRH4BBg1tWTMwq_mNzCPLdj_cHYzTWheCINHyzAMFjyPWJSV5DB5j3XPTtGWVfyqaAL2RiNuYFxfKAOFypdVfSpJ1tmhu0mtF8wvpJZrhORs_p96cvsVrtkgKHTh9IuJ1aWeepSP7NxX8Brsu_pjaM_PSrrqWUDFpETS3NNYMoIWtsRLeaZrKq8nOhnsmNETUmjNfw1RVZfuzHWO0WQKe-VclAfCdCu28-XVbgpkb-5nLWRUObnIL4uusVm0H_l2KkIc1vAkgdrdgTxuoZvlSUwGqWVvfHZMKqjucGAAAAAVzbMhkA")
 #   Channel id where your posts are stored.
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001887632033")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "searchbot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Auto_forword_dd_bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "6133440326"))
-#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Abdul88822r")
+#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Abdul88822")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "pathan_h")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hello {}, 
