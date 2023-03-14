@@ -9,7 +9,7 @@ class Config(object):
     API_HASH = os.getenv("API_HASH", "9902439c0d51324bd22dccc01227085d")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6265513460:AAEVABfwA8nb-OamLRm_aTEzP9kUlsnvzos")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazydeveloperr")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQCmHf2A4fWTVi4lsWjjdIpa2k879G0hLoFR0z3kHt14VlljUcyRH4BBg1tWTMwq_mNzCPLdj_cHYzTWheCINHyzAMFjyPWJSV5DB5j3XPTtGWVfyqaAL2RiNuYFxfKAOFypdVfSpJ1tmhu0mtF8wvpJZrhORs_p96cvsVrtkgKHTh9IuJ1aWeepSP7NxX8Brsu_pjaM_PSrrqWUDFpETS3NNYMoIWtsRLeaZrKq8nOhnsmNETUmjNfw1RVZfuzHWO0WQKe-VclAfCdCu28-XVbgpkb-5nLWRUObnIL4uusVm0H_l2KkIc1vAkgdrdgTxuoZvlSUwGqWVvfHZMKqjucGAAAAAVzbMhkA")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOJcBu5uaIjZGAgIWpxsiFvwgujFDpl98GWD6lcyQRxO7WnFi9l5I4072mlk6RH8VgEDybsd6NmL6pPgcmUK3_JiTdXaYR4766jyVrmO5Na-TOBVnXt-oOckwl9Arf_2y2_S_PIgQOsenYmIptQStQ4NZGkGx5C7E9Prk132AQmn6sdPeQVdoCAeVZxFjV4JWJntDxWo98KGfU6WHXJBLKZlCtV7U7i7nCLpd_oxvfaz7vLHNkQpME8Rxp7sbSeihWH82Cj-gFauw7CXWmctYtZkfk7HVjp4_ddsP1t8F8yUlrRw1n8BslT9i6PN89Hxjl4Q5P1GthdcU0hEOvstd1aaGM7M=")
 #   Channel id where your posts are stored.
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001887632033")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Auto_forword_dd_bot")
